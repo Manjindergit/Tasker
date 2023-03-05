@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
     "start": "webpack serve --open",
-    "build": "webpack"
+    "build": "webpack",
+    "mime": "json-server --watch db.json --port 8080 --middlewares ./src/middleware.js --static ./public --mime .json,.css"
   },
   "repository": {
     "type": "git",
