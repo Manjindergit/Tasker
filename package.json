@@ -1,0 +1,24 @@
+{
+  "name": "tasker",
+  "version": "1.0.0",
+  "description": "Tasker is a web application designed to help users manage their projects and tasks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manjindergit/Tasker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manjindergit/Tasker/issues"
+  },
+  "homepage": "https://github.com/Manjindergit/Tasker#readme",
+  "devDependencies": {
+    "webpack": "^5.80.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
